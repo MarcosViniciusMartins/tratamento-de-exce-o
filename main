@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+public class Main {
+  public static void main(String[] args) {
+    Scanner c=new Scanner(System.in);
+   try{
+    
+    System.out.println("Digite seu nome:");
+    String nome=c.nextLine();
+    System.out.println("Digite sua idade:");
+    int idade=c.nextInt();
+    System.out.println("Digite seu cpf:");
+    int cpf=c.nextInt();
+   }
+    
+    catch(Exception e){
+    System.out.print("Erro:");
+  }
+     finally{
+       System.out.print("Escreva novamente");
+     }
+   
+ }
+}
